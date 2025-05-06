@@ -1,9 +1,13 @@
-windows/** linguist-vendored
+# Ignore native code in language stats
 android/** linguist-vendored
 ios/** linguist-vendored
-macos/** linguist-vendored
 linux/** linguist-vendored
-*.cpp linguist-vendored
-*.h linguist-vendored
-*.cc linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+
 *.c linguist-vendored
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.h linguist-vendored
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
