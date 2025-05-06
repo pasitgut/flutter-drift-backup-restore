@@ -1,13 +1,20 @@
-# Ignore native code in language stats
+# Exclude platform-specific code from language statistics
 android/** linguist-vendored
 ios/** linguist-vendored
 linux/** linguist-vendored
 macos/** linguist-vendored
 windows/** linguist-vendored
+web/** linguist-vendored
 
-*.c linguist-vendored
+*.gradle linguist-vendored
+*.kt linguist-vendored
+*.java linguist-vendored
+*.swift linguist-vendored
+*.mm linguist-vendored
+*.m linguist-vendored
 *.cpp linguist-vendored
-*.cc linguist-vendored
+*.c linguist-vendored
 *.h linguist-vendored
+*.cc linguist-vendored
 *.cmake linguist-vendored
 CMakeLists.txt linguist-vendored
